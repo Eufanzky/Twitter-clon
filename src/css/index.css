@@ -1,0 +1,194 @@
+/*HEADER*/
+.header {
+    height: 100px;
+}
+
+.header-icon {
+    margin-left: 0px;
+    font-size: 8rem;
+    color: var(--font-color)
+}
+
+
+/*MAIN*/
+.main{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(var(--primary-color), var(--secondary-color)) ;
+}
+.main-section {
+    padding: 0 20% 0 15%;
+    width: 100%;
+}
+.main-title {
+    max-width: 490px;
+    padding-top: 10px;
+    font-size: 5rem;
+    line-height: 60px;
+}
+.main-description {
+    padding-top: 40px;
+    font-size: 4rem;
+}
+
+.main-information-section{
+    padding: 10px calc(100vw - 190%);
+}
+/*buttons to register*/
+
+.main-buttons {
+    margin-top: 10px;
+    width: 80%;
+}
+.main-buttons button {
+    margin: 10px 0px;
+    width: 275px;
+    height: 38px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border: none;
+
+}
+.main-buttons button i {
+    padding-right: 15px;
+    font-size: 1.7rem;
+}
+.button1--hover:hover {
+    cursor: pointer;
+    background-color: rgb(216, 216, 216);
+}
+.button2--hover:hover {
+    cursor: pointer;
+    background-color: rgb(216, 216, 216);
+}
+/*O*/
+.main-o {
+    width: 275px;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+/*the bluee button*/
+.last-button {
+    background-color: var(--secondary-color);
+
+}
+.last-button p {
+    width: 275px;
+    height: 38px;
+    text-overflow: ellipsis;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 10px 15px;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.button3--hover:hover {
+    cursor: pointer;
+    background-color: #DB93B0;
+}
+/*terms*/
+.terms-and-policy {
+    width: 275px;
+    font-size: 1.1rem;
+}
+.terms-and-policy a {
+    padding-top: 10px;
+    font-size: 1.1rem;
+    color: var(--font-color);
+}
+
+.main-login {
+    width: 100%;
+
+}
+
+.main-login h2 {
+    padding: 20px 0px;
+    font-size: 2rem;
+}
+.main-login button {
+    width: 275px;
+    height: 38px;
+    margin-bottom: 30px;
+    font-size: 1.65rem;
+    border-radius: 25px;
+    color: white;
+    background-color: var(--extra-color2);
+    border: none;
+}
+.button4--hover:hover {
+    cursor: pointer;
+    background-color: #5B4B49;
+}
+
+/*main image*/
+.main-image {
+    width: 100vw;
+    height: 360px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-invierno-hojas-pinceles-color-pastel_220290-42.jpg?w=2000');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-image i{
+    font-size: 25rem;
+    color: var(--font-color);
+}
+
+/*FOOTER SECTION*/
+.footer {
+
+    width: 100vw;
+    height: auto;
+}
+.footer ul {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer ul li {
+    margin: 5px 5px;
+    font-size: 2rem;
+}
+.footer ul li:hover {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 950px) {
+    .main {
+        height: 95vh;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .main-description{
+        width: 365px;
+    }
+    .main-section {
+        padding-left: 50px;
+        width: 792px;
+    }
+    .main-title{
+        width: 365px;
+    }
+    .main-image{
+        width: calc(100vw-792px);
+        max-width: 50vw;
+        height: 95vh;
+    }
+    .main-information-section {
+        padding: 0px 10% 0px 0px;
+    }
+    .footer {
+        height:5vh;
+    }
+}
+

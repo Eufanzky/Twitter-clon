@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #DB93B0;
+    --secondary-color: #F7BFB4;;
+    --font-color: #23967F;
+    --extra-color1: #5B4B49;
+    --extra-color2: #7DAF9C;
+}
+
+* {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
